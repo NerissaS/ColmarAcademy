@@ -1,0 +1,219 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    width: auto;
+}
+
+/* Header */
+header {
+    font-size: 23px;
+    max-width: 100%;
+    padding: 18px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-academy {
+    color: gray;
+}
+.header-title {
+    text-align: left;
+    height: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    text-align: right;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-nav a {
+    margin-left: 16px;
+    color: gray;
+}
+
+/* Body */
+.start-session {
+    background-color: silver;
+    padding: 32px 24px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.start-session img {
+    flex: 2 1 auto;
+    max-width: 60%;
+}
+
+.start-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding-left: 24px;
+}
+.start-info h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: dimgray;
+}
+.start-info h3 {
+    font-size: 30px;
+    font-weight: 350;
+    color: dimgray;
+}
+.start-info p {
+    padding: 8px 0;
+    background-color: dimgray;
+    width: 100%;
+    text-align: center;
+}
+.start-info a {
+    font-size: 30px;
+    font-weight: 350;
+    color: seashell;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Practicing */
+.practicing {
+    display: flex;
+    align-items: center;
+}
+
+.practicing-left {
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    flex: 2 1 auto;
+    margin: auto;
+    border-right: 3px solid gainsboro;
+    color: dimgray;
+}
+.practicing-left img {
+    max-width: 100%;
+}
+.practicing-left h1 {
+    padding-top: 32px;
+    padding-bottom: 24px;
+    text-align: left;
+    color: black;
+}
+#emanuel {
+    padding: 32px 0;
+}
+
+
+.practicing-right {
+    color: dimgray;
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+}
+.practicing-right .list1 {
+    display: flex;
+    border-bottom: 2px solid gainsboro;
+    padding: 16px 16px;
+}
+.practicing-right img {
+    max-width: 35%;
+    height: auto;
+    padding-right: 20px;
+    
+}
+.info {
+    max-width: 65%;
+}
+.practicing-right a {
+    color: blue;
+    text-decoration: none;
+}
+
+
+/* learning */
+.back-gray {
+    background-color: gainsboro;
+}   
+
+.learning {
+    background-color: gainsboro;
+}
+.learning-head {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    padding-top: 32px;
+    margin: auto;
+}
+
+.courses {
+    padding: 16px 72px;
+    padding-bottom: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.course {
+    max-width: 30%;
+    background-color: white;
+    margin: 16px 16px;
+}
+.course img {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+.summary {
+    padding-top: 16px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+    margin: auto;
+}
+.summary h4 {
+    color: gray;
+}
+
+
+/* thesis */
+video {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+.thesis .practicing-left{
+    padding: 32px 24px;
+    border: none;
+}
+
+.thesis .practicing{
+    align-items: flex-start;
+}
+.thesis .practicing-right{
+    padding-top: 32px;
+}
+
+.thesis .list1 {
+    border: none;
+}
+
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px;
+    margin-bottom: 30px;
+    border-top: 1px solid gray;
+    color: dimgrey;
+}
+
+footer a {
+    color: dimgrey;
+    text-decoration: none;
+    margin-left: 10px;
+}
