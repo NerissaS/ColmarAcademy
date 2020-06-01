@@ -1,7 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: whitesmoke;
-    width: auto;
+    max-width: 100%;
 }
 
 .sm-view {
@@ -10,9 +10,15 @@ body {
 
 /* Header */
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: whitesmoke;
+
     font-size: 23px;
-    max-width: 100%;
-    padding: 18px 24px;
+    width: 100%;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,11 +31,12 @@ header {
     height: 32px;
     display: flex;
     align-items: center;
+    padding: 18px 24px;
 }
 
 .header-nav {
     text-align: right;
-    
+    padding: 18px 24px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -42,6 +49,12 @@ header {
 
 
 /* Body */
+.main,
+footer {
+    position: relative;
+    top: 4rem;
+}
+
 .start-session {
     background-color: silver;
     padding: 32px 24px;
@@ -246,6 +259,11 @@ footer a {
     }
 
     /* main */
+    .main,
+    footer {
+        top: 6rem;
+    }
+
     .start-session {
         display: block;
         max-width: 100%;
@@ -294,6 +312,7 @@ footer a {
         display: inline-block;
         justify-content: space-around;
         width: 100%;
+        padding-bottom: 32px;
     }
     .c-mobile h2 {
         max-width: 100%;
